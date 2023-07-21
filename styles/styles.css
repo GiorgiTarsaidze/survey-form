@@ -1,0 +1,95 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(115deg, rgba(62, 52, 119, 0.5),rgba(73, 64, 125, 0.5), rgba(65, 57, 113, 0.5)), url(../images/background.jpg);
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.input-checkbox, .input-radio {
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    margin-right: 10px;
+}
+
+.input-textarea {
+    min-height: 120px;
+    padding: 0.625rem;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input, select {
+    box-sizing: border-box;
+    padding: 5px;
+    border:none
+}
+
+.input-element {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+form {
+    background-color: rgba(56, 52, 75, 0.9);
+    width: 50%;
+    min-width: 400px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+#submit {
+    display: block;
+    font-size: 18px;
+    width: 100%;
+    padding: 0.75rem;
+    background: rgb(78, 196, 78);
+    color: inherit;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+.input-box {
+    padding: 6px 12px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.input-box:focus, .input-textarea:focus {
+    outline: none;
+    border: 2px solid rgb(73, 134, 239);
+}
+
+#description {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}

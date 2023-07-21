@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+      <header>
+        <h1 id="title"> Musical Survey Form</h1>
+        <p id="description">This is a survey form about your favorite musicians and bands!</p>
+      </header>
+      <form id="survey-form">
+        <div class="input-element">
+          <label id="name-label" for="name">Name</label>
+          <input type="text" name="name" id="name" class="input-box" placeholder="Enter your name" required>
+        </div>
+        <div class="input-element">
+          <label id="email-label" for="email">Email</label>
+          <input type="email" name="email" id="email" class="input-box" placeholder="Enter your email" required>
+        </div>
+        <div class="input-element">
+          <label id="number-label" for="number">Age</label>
+          <input type="number" name="number" id="number" class="input-box" placeholder="Age" min="10" max="99"> 
+        </div>
+        <div class="input-element">
+          <label id="favorite-label" for="text">Favorite musician/band</label>
+          <input type="text" name="favorite" maxlength="50" class="input-box" id="favorite" placeholder="Who is your favorite musician/band?" required>
+        </div>
+        <div class="input-element">
+          <label id="often-label" for="text">How often do you listen to music?</label>
+          <select id= "dropdown" class="input-box">
+            <option disabled selected value> Select the best option </option>
+            <option>Regularly</option>
+            <option>Sometimes</option>
+            <option>Never</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="input-element">
+          <p>Would you share this survey to a friend?<p>
+          <label><input type="radio" class="input-radio" name="recommend" value="definitely" checked>Definitely</label>
+          <label><input type="radio" class="input-radio" name="recommend" value="maybe">Maybe</label>
+          <label><input type="radio" class="input-radio" name="recommend" value="not-sure">Not Sure</label>
+        </div>
+        <div class="input-element">
+          <label id="type-label" for="text">What type of music do you listen to?</label>
+          <label>
+            <input type="checkbox" value="rock" class="input-checkbox"> 
+            Rock
+          </label>
+          <label>
+            <input type="checkbox" value="pop" class="input-checkbox"> 
+            Pop
+          </label>
+          <label>
+            <input type="checkbox" value="metal" class="input-checkbox"> 
+            Metal
+          </label>
+          <label>
+            <input type="checkbox" value="country" class="input-checkbox"> 
+            Country
+          </label>
+          <label>
+            <input type="checkbox" value="hip-hop" class="input-checkbox"> 
+            Hip-Hop
+          </label>
+          <label>
+            <input type="checkbox" value="latin" class="input-checkbox"> 
+            Latin
+          </label>
+          <label>
+            <input type="checkbox" value="techno" class="input-checkbox"> 
+            Techno
+          </label>
+          <label>
+            <input type="checkbox" value="punk" class="input-checkbox"> 
+            Punk
+          </label>
+          <label>
+            <input type="checkbox" value="blues" class="input-checkbox"> 
+            Blues
+          </label>
+          <label>
+            <input type="checkbox" value="jazz" class="input-checkbox"> 
+            Jazz
+          </label>
+          <label>
+            <input type="checkbox" value="folk" class="input-checkbox"> 
+            Folk
+          </label>
+          <label>
+            <input type="checkbox" value="classic" class="input-checkbox"> 
+            Classic
+          </label>
+          <label>
+            <input type="checkbox" value="other" class="input-checkbox"> 
+            Other
+          </label>
+        </div>
+        <div class="input-element">
+          <p>Comments and suggestions?</p>
+          <textarea class="input-textarea" placeholder= "Enter your comments here..."></textarea>
+        </div>
+
+        <div class="input-element">
+          <button id ="submit"> Submit </button>
+        </div>
+
+      </form>
+    </div>
+  <body>
+</html>
